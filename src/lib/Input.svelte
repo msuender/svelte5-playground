@@ -1,5 +1,5 @@
 <script>
-    import { setContext, getContext } from "svelte";
+    import { getContext } from "svelte";
 
     const textvalue = getContext('myText');
 
