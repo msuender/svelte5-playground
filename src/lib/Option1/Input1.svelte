@@ -2,9 +2,6 @@
     import { getContext } from "svelte";
 
     const textvalue = getContext('myText');
-
-    $inspect(textvalue);
-
 </script>
 
 <h2>Input area</h2>
@@ -12,5 +9,5 @@
     Enter your text here <input type="text" bind:value={textvalue.text}/>
 </p>
 <p>
-    fetchedFromContext: {textvalue.text}
+    &#128073 text from context: <code>{textvalue.text}</code>
 </p>
