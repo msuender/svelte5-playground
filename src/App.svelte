@@ -7,8 +7,8 @@ import Output from "./lib/Output.svelte";
 
 //the magic happens HERE
 //we are passing the state into the context
-const myText = createTextState();
-setContext('myText', myText);
+const myTextState = createTextState();
+setContext('myText', myTextState);
 
 
 </script>
