@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 
 //OPTION 1
 import { setContext } from "svelte";

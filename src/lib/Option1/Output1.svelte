@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
     import { getContext } from "svelte";
 
-    let outputText = getContext('myText'); 
+    let outputText: {text: string} = getContext('myText'); 
 </script>
 
 <h2>Output area</h2>

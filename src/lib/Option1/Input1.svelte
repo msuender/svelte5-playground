@@ -1,8 +1,8 @@
-<script>
+<script lang="ts">
     import { getContext } from "svelte";
 
-    const textvalue = getContext('myText');
-</script>
+    let textvalue: {text: string} = getContext('myText');
+</script>  
 
 <h2>Input area</h2>
 <p>
