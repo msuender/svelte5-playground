@@ -17,6 +17,12 @@ setContext('myText', myTextState);
 import Input2 from "./lib/Option2/Input2.svelte";
 import Output2 from "./lib/Option2/Output2.svelte";
 
+
+//OPTION 3
+
+import Input3 from "./lib/Option3/Input3.svelte";
+import Output3 from "./lib/Option3/Output3.svelte";
+
 </script>
 
 <main>
@@ -31,5 +37,11 @@ import Output2 from "./lib/Option2/Output2.svelte";
   <h2>Option 2: Use a global state</h2>
   <Input2/>
   <Output2/>
+
+  <hr>
+
+  <h2>Option 3: Use a Class with state inside</h2>
+  <Input3/>
+  <Output3/>
 
 </main>
